@@ -1,11 +1,15 @@
+import './App.css'
+import NavBar from './components/NabBar/Index'
+import Home from './components/Home'
+
 
 
 function App() {
-  
 
   return (
-    <div className='bg-red-400'>
-      holasss
+    <div className='app'>
+      <NavBar/>
+      <Home/>
     </div>
   )
 }

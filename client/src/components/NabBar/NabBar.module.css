@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
+
+
+.NavBar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #26283780;
+    width: 100%;
+    position: fixed;
+}
+.NavBarLeft{
+    display: flex;
+}
+.NavBarRight{
+    display: flex;
+    padding-right: 50px;
+}
+/*-----LOGO-----*/
+.LogoContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0 50px;
+    color: white;
+    cursor: pointer;
+    /* background-color: aquamarine; */
+}
+
+/*-----LINKS-----*/
+.LinksContent{
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 50px;
+    color: white;
+    margin:20px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.barraOn{
+    width: 100%;
+    height: 1px;
+    margin-top: 5px;
+    background-color:#ff4529;
+    transition: 1s;
+}
+.barraOff{
+    transition: 1s;
+    display: none;
+}
+.LinkActive{
+    color: #ff4529;
+    transition: 1s;
+}
+.LinkDisabled{
+    color: white;
+}
+.LinkHome{
+    cursor: pointer;
+    padding: 0 20px;
+    
+	
+    /* background-color: aqua; */
+}
+.LinkFoods{
+    cursor: pointer;
+    padding: 0 20px;
+    /* background-color: aqua; */
+}
+.LinkOfferts{
+    cursor: pointer;
+    padding: 0 20px;
+    /* background-color: aqua; */
+}
+.LinkContact{
+    cursor: pointer;
+    padding: 0 20px;
+    /* background-color: aqua; */
+}
+
+/*-----USER-----*/
+.UserContent{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+}
+.sing{
+    padding: 5px;
+    color: green;
+    border: 2px solid #26283700;
+    border-radius: 10px;
+    margin:0 5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+.sing:hover{
+    border: 2px solid green;
+}
+.log{
+    padding: 5px;
+    color: orange;
+    border-radius: 10px;
+    margin:0 5px;
+    border: 2px solid #26283700; 
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+.log:hover{
+    
+    border: 2px solid orange;
+}
+/*
+#1f1d2b fondo
+#262837 nav
+#ff4529 rosa
+#blanco 
+#gris
+*/
