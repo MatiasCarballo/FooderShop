@@ -1,17 +1,17 @@
-import { XXXXXXXX } from "../actionsType/actions.index"
+import { GET_PRODUCT } from "../actionsType/actionsType"
 
 const initialState = {
-  xsxsxsx: [],
-  mostPopularsTv: []
+  product: []
+  
 }
 
 
 export function rootReducer(state=initialState, action){
   switch (action.type) {
-    case XXXXXXXX:
+    case GET_PRODUCT:
       return{
         ...state,
-        xsxsxsx: action.payload
+        product: action.payload
       }
 
     default:

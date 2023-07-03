@@ -1,5 +1,5 @@
-// import {  GET_MOST_POPULARS,  } from "../actionsType/actions.index"
-
+import {  GET_PRODUCT  } from "../actionsType/actionsType"
+import axios from 'axios'
 // export function getMostPopulars(page){
 //   return (dispatch)=>{
 //     fetch(`https://api.themoviedb.org/3/movie/popular?api_key=${import.meta.env.VITE_API_KEY}&language=en-US&page=${page}
@@ -34,4 +34,15 @@
 //   }
 // }
 
+export const getPrduct = ()=>{
+    return async (dispatch) => {
+        
+        const products = await axios.get(`http://localhost:5000/product`)
+        dispatch({
+          type: GET_PRODUCT,
+          payload: products.data,
+        });
+        // console.log(products);
+      };
+}
 
