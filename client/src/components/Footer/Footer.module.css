@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
+
+.Footer{
+    background-color: #262837;
+}
+
+
+.FooterTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Logo{
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    cursor: pointer;
+}
+.LineaLogo{
+    height: 2px;
+    width: 45%;
+    background-color: white;
+}
+
+.FooterBottom{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    padding:20px 5%;
+
+}
+.LineaFooter{
+    height: 100px;
+    width: 2px;
+    background-color: white;
+}
+.ContentLogo{
+    text-align: center;
+    color: white;
+}
+.ImgLogo{
+    height: 7em;
+}
+.ContentPeges{
+    color: white;
+}
+.ContentContact{
+    color: white;
+}
+.ContentRedes{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    color: white;
+    
+}
+.Title{
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+}
+.ListPages{
+    font-size: 1.2rem;
+    padding-left: 5px;
+    padding-bottom: 3px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.LogosRedes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LogoFacebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    color: #262837;
+    font-size: 1.5rem;
+    border-radius: 25px;
+    margin: 0 5px;
+}
+.LogoTwitter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    color: #262837;
+    font-size: 1.5rem;
+    border-radius: 25px;
+    margin: 0 5px;
+}
+.LogoInstagram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    color: #262837;
+    font-size: 2rem;
+    border-radius: 25px;
+    margin: 0 5px;
+}

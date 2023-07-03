@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
+
+.SearchBar{
+    background-color: #262837;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Filters{
+    display: flex;
+    padding-left: 70px;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    margin:20px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.FilterPizza{
+    padding: 5px 10px;
+}
+.FilterBuggers{
+    padding: 5px 10px;
+}
+.FilterDrinks{
+    padding: 5px 10px;
+}
+.FilterExtras{
+    padding: 5px 10px;
+}
+
+.Search{
+    display: flex;
+    align-items: center;
+    padding-right: 70px;
+}
+.SearchContent{
+    display: flex;
+    align-items: center;
+    background-color: #858585;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.SearchContent input{
+    background-color: #858585;
+    outline: none;
+    border: none;
+    font-size: 1.2em;
+    padding: 5px 13px;
+    margin-right: 10px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.SearchContent svg{
+    height: 20px;
+    width: 20px;
+    margin-right: 13px;
+}

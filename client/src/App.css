@@ -6,3 +6,12 @@
   background-color: #1f1d2b;
   
 }
+
+a{
+  text-decoration: none;
+	outline: none;
+}
+
+ul{
+  list-style: none;
+}
