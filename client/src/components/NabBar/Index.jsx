@@ -29,7 +29,7 @@ const NavBar = () => {
             </Link>
           </div>
           <div className={s.LinkOfferts} onClick={()=>selectLink('offerts')}>
-            <Link>
+            <Link to='/promos' >
             <h3 className={links==='offerts'? s.LinkActive : s.LinkDisabled}>Promos</h3>
             <div className={links==='offerts'? s.barraOn : s.barraOff}></div>
             </Link>
@@ -41,8 +41,8 @@ const NavBar = () => {
             </Link>
           </div>
           <div className={s.LinkContact} onClick={()=>selectLink('contact')}>
-            <Link>
-            <h3 className={links==='contact'? s.LinkActive : s.LinkDisabled}>Contact</h3>
+            <Link to='/contacto'>
+            <h3 className={links==='contact'? s.LinkActive : s.LinkDisabled}>Contacto</h3>
             <div className={links==='contact'? s.barraOn : s.barraOff}></div>
             </Link>
           </div>
